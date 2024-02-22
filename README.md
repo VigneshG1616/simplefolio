@@ -1,3 +1,3 @@
 # Simplefolio
- My new port folio in 2021 using npm.. 
+ My new port folio using npm.. 
 ## [View](https://vigneshg.netlify.app/)
