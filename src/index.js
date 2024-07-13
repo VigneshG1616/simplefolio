@@ -18,5 +18,12 @@ $('a[href^="#"]').on('click', function(event) {
   }
 });
 
+$(function(){
+  // get hash value
+  var hash = window.location.hash;
+  // now scroll to element with that id
+  $('html, body').animate({ scrollTop: $(hash).offset().top });
+});
+
 initSr();
 initTilt();
