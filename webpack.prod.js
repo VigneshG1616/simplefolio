@@ -37,7 +37,7 @@ module.exports = merge(common, {
     }),
     new CopyWebpackPlugin({
   patterns: [
-    { from: './src/assets/resume_vignesh.pdf', to: 'assets/resume_vignesh.pdf' }
+    { from: './src/assets/resume_vignesh_g_26.pdf', to: 'assets/resume_vignesh_g_26.pdf' }
   ]
 }),
   ],
